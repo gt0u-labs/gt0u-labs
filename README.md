@@ -7,7 +7,7 @@
 </p>
 
 ### 👨‍💻 Identity
-Web security enthusiast based in Romania 🇷🇴. Focused on building secure tools and learning through hands-on practice. I prefer "breaking things" over long tutorials.
+Web security enthusiast. Focused on building secure tools and learning through hands-on practice. I prefer "breaking things" over long tutorials.
 
 - 🛡️ **HTB Experience:** Previously cleared several Easy/Medium machines (Linux focus).
 - 🎓 **HTB Academy:** Completed Fundamentals of Linux, Networking, and Information Security.
