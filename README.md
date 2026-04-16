@@ -1,28 +1,43 @@
-# ⚡ GT0u Labs | Web Security & Development
+# ⚡ GT0u Labs | Security Researcher & Developer
 
-### 👨‍💻 About Me
-Web security enthusiast and independent developer focused on building secure tools and finding vulnerabilities. [cite_start]Currently based in Romania 🇷🇴. [cite: 1, 89]
+<p align="left">
+  <img src="https://img.shields.io/badge/OS-Linux%20%7C%20Mac-black?style=for-the-badge&logo=linux" />
+  <img src="https://img.shields.io/badge/Focus-Web%20Security-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tier-Junior-green?style=for-the-badge" />
+</p>
 
-- [cite_start]🛡️ **Focus:** Web Security, Access Control, and Information Disclosure. [cite: 88]
-- [cite_start]🐧 **OS:** Advanced Linux user (Debian/Ubuntu/Parrot/Kali). [cite: 6, 16]
-- [cite_start]🛠️ **Infrastructure:** Self-hosted clouds, Tailscale networking, and server management. [cite: 3, 18]
+### 👨‍💻 Identity
+[cite_start]Web security enthusiast based in Romania 🇷🇴. focused on learning by breaking things in controlled environments. [cite: 89, 91]
 
----
-
-### 🚀 Projects & Labs
-- [cite_start]**[HighlighterTXT](link-a-tu-repo-luego):** A professional text annotation and security tool with .htx encryption. 
-- [cite_start]**PortSwigger Academy:** Currently mastering Web Security vulnerabilities. [cite: 63]
-- [cite_start]**Minecraft Infrastructure:** Built custom secure tunnels and private cloud solutions. [cite: 2, 17]
-
----
-
-### 🛠️ Tech Stack
-- [cite_start]**Languages:** Python, SQL, Bash. [cite: 51, 59]
-- [cite_start]**Tools:** Burp Suite, Docker, Git, VMware Workstation Pro. [cite: 16, 58]
-- [cite_start]**Platforms:** HackerOne, PortSwigger, GitHub. [cite: 12, 63]
+- [cite_start]🛡️ **Cybersecurity:** Advanced practice in Web Security Academy (PortSwigger). [cite: 63, 66]
+- [cite_start]🐧 **Infrastructure:** Hardening Linux systems and managing self-hosted cloud services. [cite: 2, 18, 89]
+- [cite_start]⚙️ **Networking:** Experience with secure tunneling (Tailscale, playit.gg) and local server deployment. [cite: 2, 18]
 
 ---
 
-### 📬 Connect with me
-- [cite_start]**Email:** gt0u.dev@gmail.com [cite: 10]
-- [cite_start]**HackerOne:** [gt0u](https://hackerone.com/gt0u) [cite: 10]
+### 🛠️ The GT0u Stack
+| Category | Tools / Tech |
+| :--- | :--- |
+| **Hacking** | [cite_start]Burp Suite, Parrot OS, Kali, HTB, Docker [cite: 16, 88] |
+| **Development** | [cite_start]Python, Bash, Inno Setup, Git [cite: 16] |
+| **Security** | [cite_start]Access Control, Information Disclosure, .htx Encryption [cite: 13, 88] |
+
+---
+
+### 🚀 Featured Project: HighlighterTXT
+**Professional Text Annotation Tool**
+- [cite_start]Custom encryption for `.htx` files.
+- [cite_start]Integrated summary panel and quick annotations.
+- [cite_start]Export to PDF with advanced formatting.
+- [cite_start]*Status: Closed source / Licensing ready.* 
+
+---
+
+### 📊 Stats & Activity
+![GT0u GitHub Stats](https://github-readme-stats.vercel.app/api?username=GT0u-labs&show_icons=true&theme=tokyonight)
+
+---
+
+### 📬 Connect
+- [cite_start]**HackerOne:** [hackerone.com/gt0u](https://hackerone.com/gt0u) [cite: 10]
+- [cite_start]**Email:** `gt0u.dev@gmail.com` [cite: 10]
