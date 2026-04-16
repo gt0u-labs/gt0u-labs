@@ -7,29 +7,29 @@
 </p>
 
 ### 👨‍💻 Identity
-Web security enthusiast based in Romania 🇷🇴. Focused on learning by breaking things in controlled environments.
+Web security enthusiast based in Romania 🇷🇴. Focused on building secure tools and learning through hands-on practice. I prefer "breaking things" over long tutorials.
 
-- 🛡️ **Cybersecurity:** Advanced practice in Web Security Academy (PortSwigger).
-- 🐧 **Infrastructure:** Hardening Linux systems and managing self-hosted cloud services.
-- ⚙️ **Networking:** Experience with secure tunneling (Tailscale, playit.gg) and local server deployment.
+- 🛡️ **HTB Experience:** Previously cleared several Easy/Medium machines (Linux focus).
+- 🎓 **HTB Academy:** Completed Fundamentals of Linux, Networking, and Information Security.
+- 🐧 **Infrastructure:** Advanced knowledge in Linux, self-hosted clouds, and secure networking (Tailscale/playit.gg).
 
 ---
 
 ### 🛠️ The GT0u Stack
 | Category | Tools / Tech |
 | :--- | :--- |
-| **Hacking** | Burp Suite, Parrot OS, Kali, HTB, Docker |
+| **Hacking** | Burp Suite, Parrot OS, Kali, HTB Academy, Docker |
 | **Development** | Python, Bash, Inno Setup, Git |
-| **Security** | Access Control, Information Disclosure, .htx Encryption |
+| **Security** | Access Control, Path Traversal, .htx Encryption |
 
 ---
 
 ### 🚀 Featured Project: HighlighterTXT
-**Professional Text Annotation Tool**
-- Custom encryption for `.htx` files.
-- Integrated summary panel and quick annotations.
-- Export to PDF with advanced formatting.
-- *Status: Closed source / Licensing ready.*
+**Professional Text Annotation & Security Tool**
+- Custom encryption for `.htx` files and PDF export.
+- Integrated summary panel and quick annotations (like/dislike/star).
+- Built with Python and distributed with professional installers.
+- *Status: Closed source / Commercial license available.*
 
 ---
 
