@@ -21,9 +21,9 @@ I don't just write code; I build **end-to-end technical solutions**. From config
 ### 🚀 Featured Projects
 
 #### 💎 NexiCore PRO (Commercial Hardware/Software)
-* **Product:** A system-level optimization tool built with **Electron & JavaScript**.
+* **Product:** System-level optimization and diagnostic suite built with **Electron & JavaScript**.
+* **Key Feature (Diagnostic Engine):** Advanced system log extraction. Generates detailed reports on OS health, identifying corrupt processes and performance bottlenecks for rapid troubleshooting.
 * **Innovation:** Bridging the gap between software and physical delivery via custom-branded USB hardware.
-* **Tech Stack:** JS, System APIs, Secure Licensing, Stripe Integration.
 
 #### ☁️ Private Cloud & Media Infrastructure
 * **Achievement:** Deployed a custom, self-hosted cloud storage solution using **Docker & Tailscale**.
