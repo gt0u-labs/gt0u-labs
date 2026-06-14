@@ -2,7 +2,7 @@
 ### Self-Taught Infrastructure & Systems Builder
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Linux-Advanced-2bbc8a?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-Homelab-2bbc8a?style=for-the-badge&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-Self--Hosting-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Networking-Tailscale_&_Infrastructure-0052FF?style=for-the-badge&logo=cloudflare&logoColor=white" />
   <img src="https://img.shields.io/badge/Location-Bucharest_|_Remote-white?style=for-the-badge&logo=googlemaps&logoColor=red" />
