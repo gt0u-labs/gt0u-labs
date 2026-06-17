@@ -37,10 +37,10 @@ I am currently preparing for junior remote-friendly roles such as:
 
 Languages:
 
-* Italian
-* Spanish
-* Romanian
-* English
+* Italian - Native
+* Spanish - Native
+* Romanian - Fluent
+* English - Medium / Conversational
 
 ---
 
