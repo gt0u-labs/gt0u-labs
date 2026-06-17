@@ -1,10 +1,12 @@
 # ⚡ GT0u Labs
-### Self-Taught Infrastructure & Systems Builder
+
+### Junior Technical Support · Linux · Docker · Networking · Homelab
 
 <p align="left">
   <img src="https://img.shields.io/badge/Linux-Homelab-2bbc8a?style=for-the-badge&logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-Self--Hosting-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Networking-Tailscale_&_Infrastructure-0052FF?style=for-the-badge&logo=cloudflare&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-Compose_&_Services-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Networking-Troubleshooting-0052FF?style=for-the-badge&logo=cloudflare&logoColor=white" />
+  <img src="https://img.shields.io/badge/Monitoring-Uptime_Kuma-00A86B?style=for-the-badge&logo=statuspage&logoColor=white" />
   <img src="https://img.shields.io/badge/Location-Bucharest_|_Remote-white?style=for-the-badge&logo=googlemaps&logoColor=red" />
 </p>
 
@@ -12,106 +14,163 @@
 
 ## 🧠 About Me
 
-Self-taught tech enthusiast focused on Linux systems, Docker infrastructure,
-networking and self-hosted environments.
+Self-taught technical profile focused on Linux, Docker, networking and practical troubleshooting.
 
-I enjoy building practical solutions, experimenting with homelabs,
-optimizing systems and documenting the learning process.
+I build and document small homelab projects to improve my skills in technical support, hosting support and junior infrastructure workflows.
 
-My background comes from hands-on experience:
-- self-hosted cloud setups
-- Linux server management
-- reverse proxy & tunneling environments
-- Docker deployments
-- network troubleshooting
-- lightweight desktop utility development
+My current focus is not only running services, but also understanding how to check them, read logs, monitor availability, simulate failures and document recovery steps.
 
-Currently improving my infrastructure, cloud and automation skills while
-working on personal projects and technical experiments.
+I have explored several technical areas over time, including cybersecurity, bug bounty, desktop utilities, server hosting, reverse proxies, tunneling and self-hosted environments. I am now organizing that experience into a clearer infrastructure and support-focused profile.
 
 ---
 
-## 🚀 Featured Projects
+## 🎯 Current Goal
 
-### ☁️ Private Cloud & Infrastructure Lab
-Self-hosted cloud and remote-access environment built with:
+I am currently preparing for junior remote-friendly roles such as:
 
-- Docker
-- Tailscale
-- Ubuntu Server
-- Secure remote access
-- Containerized services
-- Network tunneling
+* Junior Technical Support Engineer
+* Hosting Support
+* Junior Linux Support
+* NOC Technician
+* Infrastructure Support Junior
+* IT Support L1/L2
 
-Focused on learning practical infrastructure management and private networking.
+Languages:
+
+* Italian
+* Spanish
+* Romanian
+* English
 
 ---
 
-### 💻 HighlighterTXT
-Offline desktop utility designed for text organization, annotations and encrypted workspace management.
+## 🚀 Featured Homelab Work
+
+### 🛠️ homelab-notes
+
+Practical Linux, Docker, networking and troubleshooting notes.
+
+This repository documents hands-on labs such as:
+
+* Linux system checks
+* Users and permissions
+* Services and logs
+* Docker container tests
+* Docker Compose workflows
+* Nginx service testing
+* Monitoring with Uptime Kuma
+* Basic incident simulation and recovery
+
+**Focus:**
+
+* Linux basics
+* Docker Compose
+* Service monitoring
+* Logs and verification
+* Troubleshooting habits
+* Technical documentation
+
+---
+
+### 📡 Service Monitoring Incident
+
+Small incident simulation using Docker Compose, Nginx and Uptime Kuma.
+
+The goal was to monitor a web service, stop it on purpose, detect the outage, recover the service and document the process.
+
+**What it shows:**
+
+* Running multiple services with Docker Compose
+* Monitoring a service with Uptime Kuma
+* Simulating downtime
+* Verifying failure and recovery
+* Writing a basic incident report
+* Using screenshots as evidence
+
+---
+
+### 🧪 Docker Compose Nginx Lab
+
+Basic Docker Compose lab running Nginx from a `docker-compose.yml` file.
+
+**What it shows:**
+
+* Understanding Docker Compose structure
+* Exposing host/container ports
+* Starting and stopping services
+* Checking service status
+* Testing HTTP response with `curl`
+* Cleaning the stack with `docker compose down`
+
+---
+
+## 💻 Desktop Tools
+
+### HighlighterTXT
+
+Offline desktop utility for text organization, highlighting and local workspace management.
 
 **Built with:**
-- Electron
-- JavaScript
-- Local encrypted storage
+
+* Electron
+* JavaScript
+* Local storage
+* Offline-first workflow
 
 **Features:**
-- Real-time text highlighting
-- Workspace organization
-- Secure encrypted file format
-- Offline-first workflow
+
+* Text highlighting
+* Notes and organization
+* Local workspace handling
+* Encrypted file format experiments
 
 ---
 
-### 🛡️ AetherMask PRO
-Experimental networking and privacy-focused utility exploring local system identity management and monitoring workflows.
+### AetherMask PRO
 
-**Focus Areas:**
-- Network adapter configuration
-- System telemetry
-- Local encrypted storage
-- Standalone desktop tooling
+Windows desktop utility experiment focused on local network adapter visibility, configuration workflows and system telemetry.
+
+**Focus areas:**
+
+* Network adapter information
+* Local configuration testing
+* System telemetry
+* Standalone desktop tooling
+* Local encrypted storage experiments
 
 ---
 
 ## 🛠️ Technical Stack
 
-| Area | Technologies |
-|------|------|
-| 💻 Development | JavaScript, Electron, Python, Bash |
-| ☁️ Infrastructure | Linux, Docker, Tailscale |
-| 🌐 Networking | SSH, Port Forwarding, Reverse Proxies |
-| 🧪 Tools | Burp Suite, Git, VS Code |
-| 🖥️ Systems | Windows, Ubuntu Server, macOS |
+| Area          | Technologies                                           |
+| ------------- | ------------------------------------------------------ |
+| Systems       | Windows, Ubuntu, WSL, macOS                            |
+| Linux / Infra | Ubuntu Server, SSH, system logs, services              |
+| Containers    | Docker, Docker Compose                                 |
+| Networking    | Tailscale, port forwarding, reverse proxies, tunneling |
+| Monitoring    | Uptime Kuma, service checks, incident notes            |
+| Development   | JavaScript, Electron, Python, Bash                     |
+| Tools         | Git, GitHub Desktop, VS Code, Burp Suite               |
 
 ---
 
-## 📚 Currently Learning
+## 📚 Currently Improving
 
-- Docker & container workflows
-- Linux server administration
-- Infrastructure automation
-- Reverse proxies & networking
-- Self-hosted services
-- Cloud fundamentals
+* Linux troubleshooting
+* Docker Compose workflows
+* Service monitoring
+* Networking fundamentals
+* Technical documentation
+* Remote support workflows
+* Infrastructure basics
 
 ---
 
-## 🎯 Goals
+## 🧩 How I Learn
 
-Currently building practical experience in:
-- Infrastructure
-- System administration
-- Networking
-- Homelab environments
-- Automation workflows
+I learn by building small practical labs, breaking things safely, checking logs, fixing issues and documenting what happened.
 
-Open to:
-- Junior SysAdmin
-- IT Support
-- NOC Technician
-- Junior DevOps
-- Remote infrastructure roles
+The goal is to build real troubleshooting habits instead of only following tutorials.
 
 ---
 
