@@ -1,186 +1,132 @@
 # ⚡ GT0u Labs
 
-### Junior Technical Support · Linux · Docker · Networking · Homelab
+### Junior Technical Support · Linux · Docker · Virtualization · Networking
 
 <p align="left">
   <img src="https://img.shields.io/badge/Linux-Homelab-2bbc8a?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Proxmox-Virtualization-E57000?style=for-the-badge&logo=proxmox&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-Compose_&_Services-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Networking-Troubleshooting-0052FF?style=for-the-badge&logo=cloudflare&logoColor=white" />
-  <img src="https://img.shields.io/badge/Monitoring-Uptime_Kuma-00A86B?style=for-the-badge&logo=statuspage&logoColor=white" />
-  <img src="https://img.shields.io/badge/Location-Bucharest_|_Remote-white?style=for-the-badge&logo=googlemaps&logoColor=red" />
+  <img src="https://img.shields.io/badge/Monitoring-Grafana_%26_Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-Bucharest_|_Open_to_Relocation-white?style=for-the-badge&logo=googlemaps&logoColor=red" />
 </p>
 
 ---
 
 ## 🧠 About Me
 
-Self-taught technical profile focused on Linux, Docker, networking and practical troubleshooting.
+Self-taught technical professional based in Bucharest, Romania — Italian citizen, open to relocating within the EU/EFTA, including Switzerland.
 
-I build and document small homelab projects to improve my skills in technical support, hosting support and junior infrastructure workflows.
+I build and document practical infrastructure projects to develop production-relevant skills in technical support, systems administration, and infrastructure operations. My work covers Linux administration, containerization, virtualization, and centralized log monitoring — with a growing focus on the security fundamentals that connect all of it.
 
-My current focus is not only running services, but also understanding how to check them, read logs, monitor availability, simulate failures and document recovery steps.
-
-I have explored several technical areas over time, including cybersecurity, bug bounty, desktop utilities, server hosting, reverse proxies, tunneling and self-hosted environments. I am now organizing that experience into a clearer infrastructure and support-focused profile.
+I care about understanding *why* a system behaves the way it does, not just following a tutorial. Every project below was built, broken, and documented by me, independently.
 
 ---
 
-## 🎯 Current Goal
+## 🎯 Current Focus
 
-I am currently preparing for junior remote-friendly roles such as:
+Looking for a junior role in:
 
-* Junior Technical Support Engineer
-* Hosting Support
-* Junior Linux Support
-* NOC Technician
-* Infrastructure Support Junior
-* IT Support L1/L2
+* Technical Support (L1/L2)
+* NOC / Infrastructure Operations
+* Systems Administration
+* IT Support Engineer
 
-Languages:
-
-* Italian - Native
-* Spanish - Native
-* Romanian - Fluent
-* English - Medium / Conversational
+**Languages:** Italian (native) · Spanish (native) · Romanian (fluent) · English (upper-intermediate, B2) · German (learning)
 
 ---
 
-## 🚀 Featured Homelab Work
+## 🚀 Infrastructure Projects
+
+### 🖥️ Virtualization & Security Lab (Proxmox VE)
+
+A two-node lab environment built on Proxmox VE for infrastructure and security practice.
+
+**What it shows:**
+
+* Proxmox VE installation, configuration, and storage management (LVM)
+* VM provisioning and resource allocation (CPU, memory, disk)
+* A dedicated Ubuntu Server target VM and a Kali Linux VM for network reconnaissance
+* Nmap scanning to identify open services, versions, and attack surface in a controlled environment
+* Documented, repeatable lab setup — not a one-off exercise
+
+---
+
+### 📊 Centralized Log Monitoring Stack
+
+Self-hosted observability stack for log aggregation and analysis.
+
+**Stack:** Grafana · Loki · Promtail, deployed via Docker Compose on a dedicated Linux server.
+
+**What it shows:**
+
+* Centralizing logs from multiple Docker services into a single, searchable dashboard
+* Building log-volume visualizations to spot anomalies
+* Practical foundation for incident detection — the same principle behind SIEM tooling
+
+---
 
 ### 🛠️ homelab-notes
 
-Practical Linux, Docker, networking and troubleshooting notes.
+Practical Linux, Docker, and networking documentation from ongoing hands-on labs.
 
-This repository documents hands-on labs such as:
-
-* Linux system checks
-* Users and permissions
-* Services and logs
-* Docker container tests
-* Docker Compose workflows
-* Nginx service testing
-* Monitoring with Uptime Kuma
-* Basic incident simulation and recovery
-
-**Focus:**
-
-* Linux basics
-* Docker Compose
-* Service monitoring
-* Logs and verification
-* Troubleshooting habits
-* Technical documentation
+**Covers:** system checks, permissions, service/log management, Docker Compose workflows, Nginx deployment, monitoring with Uptime Kuma, and incident simulation/recovery.
 
 ---
 
 ### 📡 Service Monitoring Incident
 
-Small incident simulation using Docker Compose, Nginx and Uptime Kuma.
-
-The goal was to monitor a web service, stop it on purpose, detect the outage, recover the service and document the process.
-
-**What it shows:**
-
-* Running multiple services with Docker Compose
-* Monitoring a service with Uptime Kuma
-* Simulating downtime
-* Verifying failure and recovery
-* Writing a basic incident report
-* Using screenshots as evidence
+Controlled incident simulation using Docker Compose, Nginx, and Uptime Kuma — service stopped intentionally, outage detected, service restored, and the full process documented with a written report and evidence.
 
 ---
 
-### 🧪 Docker Compose Nginx Lab
+## 📜 Certifications
 
-Basic Docker Compose lab running Nginx from a `docker-compose.yml` file.
-
-**What it shows:**
-
-* Understanding Docker Compose structure
-* Exposing host/container ports
-* Starting and stopping services
-* Checking service status
-* Testing HTTP response with `curl`
-* Cleaning the stack with `docker compose down`
+* **AWS Cloud Practitioner Essentials** — Amazon Web Services Training and Certification (July 2026)
+* **Aruba Networking Essentials** — David Bombal (July 2026)
 
 ---
 
-## 💻 Desktop Tools
+## 🔐 Security Fundamentals
 
-### HighlighterTXT
+Practical, introductory-level experience — not claiming expert status, but a real foundation:
 
-Offline desktop utility for text organization, highlighting and local workspace management.
-
-**Built with:**
-
-* Electron
-* JavaScript
-* Local storage
-* Offline-first workflow
-
-**Features:**
-
-* Text highlighting
-* Notes and organization
-* Local workspace handling
-* Encrypted file format experiments
-
----
-
-### AetherMask PRO
-
-Windows desktop utility experiment focused on local network adapter visibility, configuration workflows and system telemetry.
-
-**Focus areas:**
-
-* Network adapter information
-* Local configuration testing
-* System telemetry
-* Standalone desktop tooling
-* Local encrypted storage experiments
+* CVE and dependency vulnerability review
+* Basic web vulnerability testing with Burp Suite
+* Responsible disclosure report submitted to Valve (outdated FFmpeg dependency in Steam Link Linux client — triaged as Informative, no working PoC)
+* Network reconnaissance practice with Nmap in a controlled lab environment
 
 ---
 
 ## 🛠️ Technical Stack
 
-| Area          | Technologies                                           |
-| ------------- | ------------------------------------------------------ |
-| Systems       | Windows, Ubuntu, WSL, macOS                            |
-| Linux / Infra | Ubuntu Server, SSH, system logs, services              |
-| Containers    | Docker, Docker Compose                                 |
-| Networking    | Tailscale, port forwarding, reverse proxies, tunneling |
-| Monitoring    | Uptime Kuma, service checks, incident notes            |
-| Development   | JavaScript, Electron, Python, Bash                     |
-| Tools         | Git, GitHub Desktop, VS Code, Burp Suite               |
+| Area              | Technologies                                                     |
+| ----------------- | ------------------------------------------------------------------ |
+| Systems           | Linux (Ubuntu, Arch, Kali), Windows, macOS, WSL                  |
+| Virtualization    | Proxmox VE — VM provisioning, storage (LVM), resource management |
+| Containers        | Docker, Docker Compose                                            |
+| Networking        | SSH, DNS, NAT/port forwarding, reverse proxies, Tailscale, Nginx  |
+| Monitoring        | Grafana, Loki, Promtail, Uptime Kuma                              |
+| Security          | Nmap, Burp Suite, CVE review, responsible disclosure              |
+| Scripting         | Bash, Python (fundamentals), JavaScript                          |
+| Tools             | Git, GitHub, VS Code                                              |
 
 ---
 
-## 📚 Currently Improving
+## 🧩 How I Work
 
-* Linux troubleshooting
-* Docker Compose workflows
-* Service monitoring
-* Networking fundamentals
-* Technical documentation
-* Remote support workflows
-* Infrastructure basics
-
----
-
-## 🧩 How I Learn
-
-I learn by building small practical labs, breaking things safely, checking logs, fixing issues and documenting what happened.
-
-The goal is to build real troubleshooting habits instead of only following tutorials.
+I learn by building — setting up real infrastructure, breaking it safely, reading the logs, fixing it, and writing down what happened and why. Every project here is something I can explain in detail, not just a checklist of tools I've heard of.
 
 ---
 
 ## 📬 Contact
 
 <p align="left">
-  <a href="mailto:gt0u.dev@gmail.com">
+  <a href="mailto:andrea.ronconi.jobs@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-
+  <a href="https://linkedin.com/in/andrearonconi">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
   <a href="https://github.com/gt0u-labs">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
