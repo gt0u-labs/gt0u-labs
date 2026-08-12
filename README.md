@@ -49,6 +49,16 @@ A two-node lab environment built on Proxmox VE for infrastructure and security p
 * Nmap scanning to identify open services, versions, and attack surface in a controlled environment
 * Documented, repeatable lab setup — not a one-off exercise
 
+### 🧠 GPU Passthrough & Local LLM Inference
+
+Configured GPU passthrough on Proxmox VE to run local LLM inference inside a dedicated VM.
+
+**What it shows:**
+
+* Diagnosed and resolved a PCIe device-visibility issue (GPU not exposed to the VM) at the host BIOS/IOMMU level
+* Deployed Ollama + Open WebUI via Docker inside the VM for local model inference
+* Practical experience with hardware-level virtualization troubleshooting, beyond standard VM provisioning
+
 ---
 
 ### 📊 Centralized Log Monitoring Stack
