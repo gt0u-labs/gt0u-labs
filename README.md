@@ -10,6 +10,8 @@
   <img src="https://img.shields.io/badge/Location-Bucharest_|_Open_to_Relocation-white?style=for-the-badge&logo=googlemaps&logoColor=red" />
 </p>
 
+### 🌐 Portfolio: [gt0u-labs.github.io](https://gt0u-labs.github.io)
+
 ---
 
 ## 🧠 About Me
@@ -139,6 +141,9 @@ I learn by building — setting up real infrastructure, breaking it safely, read
   </a>
   <a href="https://github.com/gt0u-labs">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://gt0u-labs.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-4FD1C5?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
 </p>
 
