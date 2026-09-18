@@ -1,4 +1,3 @@
-# ⚡ GT0u Labs
 
 ### Junior Technical Support · Linux · Docker · Virtualization · Networking
 
