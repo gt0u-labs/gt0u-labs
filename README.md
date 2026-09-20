@@ -1,163 +1,127 @@
-# ⚡ GT0u Labs
+# Andrea Ronconi — GT0u Labs
 
-### Junior Technical Support · Linux · Docker · Virtualization · Networking
+### Technical Support & Infrastructure · Linux · Docker · Proxmox · Monitoring
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Linux-Homelab-2bbc8a?style=for-the-badge&logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Proxmox-Virtualization-E57000?style=for-the-badge&logo=proxmox&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-Compose_&_Services-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Monitoring-Grafana_%26_Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Location-Bucharest_|_Open_to_Relocation-white?style=for-the-badge&logo=googlemaps&logoColor=red" />
-</p>
-
-### 🌐 Portfolio: [gt0u-labs.github.io](https://gt0u-labs.github.io)
+![Linux](https://img.shields.io/badge/Linux-Homelab-2bbc8a?style=for-the-badge&logo=linux&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox-VE-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-Loki_&_Promtail-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Location](https://img.shields.io/badge/Bucharest-Open_to_Ticino_&_Italy-white?style=for-the-badge&logo=googlemaps&logoColor=red)
 
 ---
 
-## 🧠 About Me
+## About
 
-Self-taught technical professional based in Bucharest, Romania — Italian citizen, open to relocating within the EU/EFTA, including Switzerland.
+Self-taught technical profile focused on Linux systems, virtualization, containers
+and network troubleshooting.
 
-I build and document practical infrastructure projects to develop production-relevant skills in technical support, systems administration, and infrastructure operations. My work covers Linux administration, containerization, virtualization, and centralized log monitoring — with a growing focus on the security fundamentals that connect all of it.
+I build infrastructure in my own homelab, break it on purpose, and document how I
+diagnosed and fixed it. The point is not running services — it's reading logs,
+detecting failures, restoring service and writing down what happened.
 
-I care about understanding *why* a system behaves the way it does, not just following a tutorial. Every project below was built, broken, and documented by me, independently.
-
----
-
-## 🎯 Current Focus
-
-Looking for a junior role in:
-
-* Technical Support (L1/L2)
-* NOC / Infrastructure Operations
-* Systems Administration
-* IT Support Engineer / Junior Security roles
-
-**Languages:** Italian (native) · Spanish (native) · Romanian (fluent) · English (upper-intermediate, B2) · German (learning)
+Italian citizen, based in Bucharest. Open to roles in Ticino (Switzerland) and Italy.
 
 ---
 
-## 🚀 Infrastructure Projects
+## Current focus
 
-### 🖥️ Virtualization & Security Lab (Proxmox VE)
+Junior roles in technical support, NOC and infrastructure operations, with an
+active move toward defensive security (SOC / log analysis).
 
-A two-node lab environment built on Proxmox VE for infrastructure and security practice.
-
-**What it shows:**
-
-* Proxmox VE installation, configuration, and storage management (LVM)
-* VM provisioning and resource allocation (CPU, memory, disk)
-* A dedicated Ubuntu Server target VM and a Kali Linux VM for network reconnaissance
-* Nmap scanning to identify open services, versions, and attack surface in a controlled environment
-* Documented, repeatable lab setup — not a one-off exercise
-
-### 🧠 GPU Passthrough & Local LLM Inference
-
-Configured GPU passthrough on Proxmox VE to run local LLM inference inside a dedicated VM.
-
-**What it shows:**
-
-* Diagnosed and resolved a PCIe device-visibility issue (GPU not exposed to the VM) at the host BIOS/IOMMU level
-* Deployed Ollama + Open WebUI via Docker inside the VM for local model inference
-* Practical experience with hardware-level virtualization troubleshooting, beyond standard VM provisioning
+**Languages:** Italian (native) · Spanish (native) · Romanian (fluent) ·
+English (B2) · German (A1, self-study)
 
 ---
 
-### 📊 Centralized Log Monitoring Stack
+## Infrastructure work
 
-Self-hosted observability stack for log aggregation and analysis.
+### 🖥️ Proxmox VE virtualization lab
+Hypervisor installed and configured on dedicated hardware. Multiple VMs
+provisioned and managed, including a dedicated Kali Linux environment used for
+network reconnaissance exercises with Nmap.
 
-**Stack:** Grafana · Loki · Promtail, deployed via Docker Compose on a dedicated Linux server.
+**Covers:** hypervisor setup · VM provisioning · LVM storage · resource allocation · PCI passthrough
 
-**What it shows:**
+### 📊 Log monitoring stack — Grafana, Loki, Promtail
+Self-hosted log monitoring on a Linux server, centralizing logs from multiple
+Docker services into searchable dashboards.
 
-* Centralizing logs from multiple Docker services into a single, searchable dashboard
-* Building log-volume visualizations to spot anomalies
-* Practical foundation for incident detection — the same principle behind SIEM tooling
+**Covers:** centralized logging · log-volume dashboards · multi-service log shipping
+
+### 🚨 Incident response lab — Docker Compose, Nginx, Uptime Kuma
+Simulated a service outage, detected the failure through monitoring alerts,
+restored the service and produced a written incident report with timeline and
+root-cause notes.
+
+**Covers:** monitoring · outage detection · service recovery · incident reporting
+
+### 🔧 GPU passthrough troubleshooting (VFIO)
+Diagnosed a PCI ROM signature error through `dmesg`, resolved it with a
+card-specific VBIOS via `romfile=`, reassigned USB devices and corrected the VM
+boot order. Includes the mistake that cost me a full rebuild, and why it was a
+mistake.
+
+**Covers:** VFIO · PCI passthrough · dmesg diagnosis · structured troubleshooting
+
+→ [Read the full write-up](https://github.com/gt0u-labs/security-learning-log)
+
+### 📓 homelab-notes
+Documented Linux, Docker and networking labs: permissions, services and logs,
+Docker Compose workflows, Nginx deployment, virtualization and
+monitoring/recovery exercises.
+
+→ [gt0u-labs/homelab-notes](https://github.com/gt0u-labs/homelab-notes)
 
 ---
 
-### 🛠️ homelab-notes
-
-Practical Linux, Docker, and networking documentation from ongoing hands-on labs.
-
-**Covers:** system checks, permissions, service/log management, Docker Compose workflows, Nginx deployment, monitoring with Uptime Kuma, and incident simulation/recovery.
-
----
-
-### 📡 Service Monitoring Incident
-
-Controlled incident simulation using Docker Compose, Nginx, and Uptime Kuma — service stopped intentionally, outage detected, service restored, and the full process documented with a written report and evidence.
-
----
+## Security
 
 ### 🔐 security-learning-log
+Ongoing hands-on defensive security training — HTB Academy, HTB Labs and
+TryHackMe. 64 modules and labs completed, with notes on what each one actually
+covered.
 
-Ongoing, self-directed security learning — 51+ modules, rooms, and machines completed across HTB Academy, HTB Labs, and TryHackMe, spanning Linux/networking fundamentals, web security (SQLi, JS deobfuscation), Identity and Access Management, phishing/email analysis, and red team fundamentals.
+**Blue team focus:** alert triage · log analysis · phishing and email header
+analysis (SPF/DKIM/DMARC) · traffic analysis · defensive security fundamentals
 
-📄 [Full log →](https://github.com/gt0u-labs/security-learning-log)
+→ [gt0u-labs/security-learning-log](https://github.com/gt0u-labs/security-learning-log)
 
----
-
-## 📜 Certifications
-
-* **AWS Cloud Practitioner Essentials** — Amazon Web Services Training and Certification (July 2026)
-* **Aruba Networking Essentials** — David Bombal (July 2026)
-
----
-
-## 🔐 Security Fundamentals
-
-Practical, introductory-level experience — not claiming expert status, but a real foundation:
-
-* CVE and dependency vulnerability review
-* Basic web vulnerability testing with Burp Suite
-* Responsible disclosure report submitted to Valve (outdated FFmpeg dependency in Steam Link Linux client — triaged as Informative, no working PoC)
-* Network reconnaissance practice with Nmap in a controlled lab environment
-* HTB Academy & TryHackMe: Identity and Access Management, SQL injection, phishing/email analysis, red team fundamentals
+### Responsible disclosure
+Reviewed CVEs and dependency vulnerabilities; submitted a responsible disclosure
+report to Valve regarding an outdated FFmpeg dependency in the Steam Link Linux
+client (triaged).
 
 ---
 
-## 🛠️ Technical Stack
+## Technical stack
 
-| Area              | Technologies                                                     |
-| ----------------- | ------------------------------------------------------------------ |
-| Systems           | Linux (Ubuntu, Arch, Kali), Windows, macOS, WSL                  |
-| Virtualization    | Proxmox VE — VM provisioning, storage (LVM), resource management |
-| Containers        | Docker, Docker Compose                                            |
-| Networking        | SSH, DNS, NAT/port forwarding, reverse proxies, Tailscale, Nginx  |
-| Monitoring        | Grafana, Loki, Promtail, Uptime Kuma                              |
-| Security          | Nmap, Burp Suite, Metasploit, CVE review, responsible disclosure  |
-| Scripting         | Bash, Python (fundamentals), JavaScript                          |
-| Tools             | Git, GitHub, VS Code                                              |
-
----
-
-## 🧩 How I Work
-
-I learn by building — setting up real infrastructure, breaking it safely, reading the logs, fixing it, and writing down what happened and why. Every project here is something I can explain in detail, not just a checklist of tools I've heard of.
+| Area | Technologies |
+| --- | --- |
+| Systems | Linux (Ubuntu, Arch, Kali), Windows, macOS, WSL |
+| Virtualization | Proxmox VE, VM provisioning, LVM, PCI passthrough |
+| Containers | Docker, Docker Compose |
+| Networking | SSH, DNS, NAT & port forwarding, reverse proxies, Tailscale, Nginx |
+| Monitoring | Grafana, Loki, Promtail, Uptime Kuma |
+| Security | Nmap, Burp Suite, CVE & dependency review |
+| Scripting | Bash, Python, JavaScript/Electron |
+| Tools | Git, VS Code |
 
 ---
 
-## 📬 Contact
+## Desktop tools
 
-<p align="left">
-  <a href="mailto:andrea.ronconi.jobs@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com/in/andrearonconi">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/gt0u-labs">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://gt0u-labs.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-4FD1C5?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  </a>
-</p>
+Earlier self-built desktop utilities, kept for reference.
+
+**HighlighterTXT** — Offline Electron utility for text annotation, highlighting
+and local workspace management, with a custom encrypted file format.
+
+**AetherMask** — Windows utility for inspecting local network adapter
+configuration and system telemetry.
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GT0u-labs&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
+## Contact
+
+📧 andrea.ronconi.jobs@gmail.com
+💼 [linkedin.com/in/andrearonconi](https://www.linkedin.com/in/andrearonconi)
+🌐 [gt0u-labs.github.io](https://gt0u-labs.github.io/)
