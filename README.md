@@ -15,8 +15,8 @@
 Self-taught technical profile focused on Linux systems, virtualization, containers
 and network troubleshooting.
 
-I run a two-node homelab, break it on purpose, and document how I diagnosed and
-fixed it. The point isn't running services — it's reading logs, detecting
+I built and ran a two-node homelab, broke it on purpose, and documented how I
+diagnosed and fixed it. The point isn't running services — it's reading logs, detecting
 failures, restoring service and writing down what actually happened.
 
 Italian citizen, based in Bucharest. Open to roles in Ticino (Switzerland) and Italy.
@@ -29,18 +29,19 @@ English (B2) · German (A1, self-study)
 
 ---
 
-## 🏠 The lab
+## 🏠 The lab (2025–2026)
 
 **Node 1 — Application & monitoring server**
 Ubuntu Server (headless, SSH-managed) · Docker & Docker Compose ·
 Grafana + Loki + Promtail centralized logging · Uptime Kuma
 
 **Node 2 — Virtualization host**
-Proxmox VE bare-metal hypervisor · Ubuntu Server VM · Kali Linux VM for network
-reconnaissance · GPU passthrough to a dedicated VM for local LLM inference
+Proxmox VE bare-metal hypervisor · Kali Linux VM for network reconnaissance, with
+GPU passthrough to a physical monitor · Ubuntu Server VM for local LLMs
 (Ollama + Open WebUI)
 
-Both nodes managed remotely over SSH and the Proxmox web interface.
+Both nodes were managed remotely over SSH and the Proxmox web interface. The
+hardware has since been repurposed; the full setup is documented below.
 
 → [gt0u-labs/homelab-notes](https://github.com/gt0u-labs/homelab-notes)
 
@@ -49,7 +50,7 @@ Both nodes managed remotely over SSH and the Proxmox web interface.
 ## 🔧 Selected work
 
 ### Centralized log monitoring — Grafana, Loki, Promtail
-Self-hosted log stack on a Linux server, shipping logs from multiple Docker
+Ran a self-hosted log stack on a Linux server, shipping logs from multiple Docker
 services into searchable dashboards.
 `centralized logging` · `log-volume dashboards` · `multi-service log shipping`
 
