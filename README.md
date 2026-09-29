@@ -1,6 +1,6 @@
 # Andrea Ronconi — GT0u Labs
 
-### Technical Support & Infrastructure · Linux · Proxmox · Docker · Monitoring
+### Technical Support · Infrastructure · Linux · Proxmox · Docker · Monitoring
 
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu_|_Arch_|_Kali-2bbc8a?style=for-the-badge&logo=linux&logoColor=white)
 ![Proxmox](https://img.shields.io/badge/Proxmox-VE-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
@@ -12,111 +12,113 @@
 
 ## About
 
-Self-taught technical profile focused on Linux systems, virtualization, containers
-and network troubleshooting.
+Self-taught technical profile focused on **Linux systems, virtualization,
+containers, monitoring and infrastructure troubleshooting**.
 
-I built and ran a two-node homelab, broke it on purpose, and documented how I
-diagnosed and fixed it. The point isn't running services — it's reading logs, detecting
-failures, restoring service and writing down what actually happened.
+I learn by building systems, breaking them, reading logs and documenting how I
+fixed them.
 
-Italian citizen, based in Bucharest. Open to roles in Ticino (Switzerland) and Italy.
+Built and operated a two-node homelab using **Ubuntu Server, Proxmox VE, Docker,
+Grafana, Loki, Promtail and Uptime Kuma**.
 
-**Currently working toward:** junior technical support, NOC and infrastructure
-operations, with an active move into defensive security (SOC / log analysis).
+**Currently targeting:** Junior Technical Support · NOC · Infrastructure ·
+System Administration, with an active move toward Defensive Security / SOC.
+
+🇮🇹 Italian citizen · Based in Bucharest · Open to relocation to **Ticino & Italy**
 
 **Languages:** Italian (native) · Spanish (native) · Romanian (fluent) ·
-English (B2) · German (A1, self-study)
+English (B2) · German (A1)
 
 ---
 
-## 🏠 The lab (2025–2026)
+## 🏠 Homelab
 
-**Node 1 — Application & monitoring server**
-Ubuntu Server (headless, SSH-managed) · Docker & Docker Compose ·
-Grafana + Loki + Promtail centralized logging · Uptime Kuma
+### Node 1 — Ubuntu Server
 
-**Node 2 — Virtualization host**
-Proxmox VE bare-metal hypervisor · Kali Linux VM for network reconnaissance, with
-GPU passthrough to a physical monitor · Ubuntu Server VM for local LLMs
-(Ollama + Open WebUI)
+`Docker` · `Docker Compose` · `Grafana` · `Loki` · `Promtail` · `Uptime Kuma`
 
-Both nodes were managed remotely over SSH and the Proxmox web interface. The
-hardware has since been repurposed; the full setup is documented below.
+Centralized logging, service monitoring and self-hosted infrastructure.
 
-→ [gt0u-labs/homelab-notes](https://github.com/gt0u-labs/homelab-notes)
+### Node 2 — Proxmox VE
+
+`VM provisioning` · `LVM` · `GPU passthrough` · `USB passthrough`
+
+Kali Linux and Ubuntu Server VMs used for infrastructure, networking and
+security labs.
+
+→ [Explore the homelab](https://github.com/gt0u-labs/homelab-notes)
 
 ---
 
-## 🔧 Selected work
+## 🔧 Selected Work
 
-### Centralized log monitoring — Grafana, Loki, Promtail
-Ran a self-hosted log stack on a Linux server, shipping logs from multiple Docker
-services into searchable dashboards.
-`centralized logging` · `log-volume dashboards` · `multi-service log shipping`
+### GPU Passthrough Troubleshooting — Proxmox / VFIO
 
-### Incident response lab — Docker Compose, Nginx, Uptime Kuma
-Simulated a service outage, detected the failure through monitoring alerts,
-restored the service and produced a written incident report with timeline and
-root-cause notes.
-`monitoring` · `outage detection` · `service recovery` · `incident reporting`
-
-### GPU passthrough troubleshooting (VFIO)
-Diagnosed a PCI ROM signature error through `dmesg`, resolved it with a
-card-specific VBIOS via `romfile=`, reassigned USB devices and corrected the VM
-boot order. Includes the mistake that cost me a full rebuild, and why it was one.
-`VFIO` · `PCI passthrough` · `dmesg diagnosis` · `structured troubleshooting`
+Diagnosed a PCI ROM signature error using `dmesg`, resolved it with a
+card-specific VBIOS via `romfile=`, configured USB passthrough and corrected
+VM boot/display configuration.
 
 → [Read the write-up](https://github.com/gt0u-labs/security-learning-log/blob/main/writeups/proxmox-gpu-passthrough.md)
 
-### Responsible disclosure — Valve
-Reviewed CVEs and dependency vulnerabilities; submitted a responsible disclosure
-report to Valve regarding an outdated FFmpeg dependency in the Steam Link Linux
-client (triaged).
+### Service Monitoring & Recovery
+
+Simulated an Nginx outage, detected it through Uptime Kuma, restored the service
+and verified recovery through monitoring and HTTP checks.
+
+→ [View the incident lab](https://github.com/gt0u-labs/homelab-notes/tree/main/projects/service-monitoring-incident)
+
+### Support Playbook
+
+A small first-response runbook for service outages, SSH connectivity,
+resource problems and log-driven troubleshooting.
+
+→ [View the playbook](https://github.com/gt0u-labs/homelab-notes/tree/main/support-playbook)
 
 ---
 
-## 🔐 Security training
+## 🔐 Security
 
-Ongoing hands-on defensive security work across HTB Academy, HTB Labs and
-TryHackMe — 64 modules and labs completed, organized by role with notes on what
-each one covered.
+Hands-on training across **HTB Academy, HTB Labs and TryHackMe**, focused on:
 
-**Blue team focus:** alert triage · log analysis · phishing and email header
-analysis (SPF/DKIM/DMARC) · traffic analysis · defensive security fundamentals
+`Alert triage` · `Log analysis` · `Phishing analysis` · `Traffic analysis` ·
+`Networking` · `IAM` · `Web security fundamentals`
 
-→ [gt0u-labs/security-learning-log](https://github.com/gt0u-labs/security-learning-log)
+64 modules, rooms and machines completed, documented with notes on what each
+one covered.
 
----
+→ [Security learning log](https://github.com/gt0u-labs/security-learning-log)
 
-## Technical stack
+### Valve / HackerOne
 
-| Area | Technologies |
-| --- | --- |
-| Systems | Linux (Ubuntu, Arch, Kali), Windows, macOS, WSL |
-| Virtualization | Proxmox VE, VM provisioning, LVM, PCI/GPU passthrough |
-| Containers | Docker, Docker Compose |
-| Networking | SSH, DNS, NAT & port forwarding, reverse proxies, Tailscale, Nginx |
-| Monitoring | Grafana, Loki, Promtail, Uptime Kuma |
-| Security | Nmap, Burp Suite, CVE & dependency review |
-| Scripting | Bash, Python, JavaScript/Electron |
-| Tools | Git, VS Code |
+Identified an outdated FFmpeg dependency in the Steam Link Linux client and
+mapped it to CVE-2020-22015.
+
+The report was submitted through Valve's HackerOne program and closed as
+**Informative** because exploitability was not demonstrated with a working PoC.
+
+The main takeaway: identifying a vulnerable dependency is not the same as
+demonstrating that the vulnerable code path is reachable.
 
 ---
 
-## Desktop tools
+## 🛠 Stack
 
-Earlier self-built utilities, kept for reference.
-
-**HighlighterTXT** — Offline Electron utility for text annotation, highlighting
-and local workspace management, with a custom encrypted file format.
-
-**AetherMask** — Windows utility for inspecting local network adapter
-configuration and system telemetry.
+`Linux` · `Windows` · `Proxmox VE` · `Docker` · `Docker Compose` ·
+`Grafana` · `Loki` · `Promtail` · `Nginx` · `SSH` · `DNS` · `Nmap` ·
+`Burp Suite` · `Bash` · `Python` · `JavaScript` · `Git`
 
 ---
 
-## Contact
+## 📫 Contact
 
-📧 andrea.ronconi.jobs@gmail.com
-💼 [linkedin.com/in/andrearonconi](https://www.linkedin.com/in/andrearonconi)
-🌐 [gt0u-labs.github.io](https://gt0u-labs.github.io/)
+📧 **andrea.ronconi.jobs@gmail.com**
+
+💼 [LinkedIn](https://www.linkedin.com/in/andrearonconi)
+
+🌐 [Portfolio](https://gt0u-labs.github.io/)
+
+---
+
+<p align="center">
+  <sub>Built through hands-on labs, troubleshooting and a lot of broken configurations.</sub>
+</p>
