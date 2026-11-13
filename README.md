@@ -111,7 +111,7 @@ demonstrating that the vulnerable code path is reachable.
 
 ## 📫 Contact
 
-📧 **andrea.ronconi.jobs@gmail.com**
+📧 **gt0u.dev@proton.me**
 
 💼 [LinkedIn](https://www.linkedin.com/in/andrearonconi)
 
